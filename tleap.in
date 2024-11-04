@@ -1,0 +1,6 @@
+source leaprc.protein.ff19SB
+diala = sequence { ACE ALA NME }
+source leaprc.water.opc
+solvateoct diala OPCBOX  10.0
+saveamberparm diala ALA.prmtop ALA.rst
+quit
